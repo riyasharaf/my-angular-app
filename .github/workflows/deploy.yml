@@ -3,7 +3,7 @@ name: Deploy Angular to GitHub Pages
 on:
   push:
     branches:
-      - main  # Deploy when you push to main
+      - main
 
 jobs:
   build:
@@ -28,5 +28,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/contacts
+          folder: dist/contact
+          token: ${{ secrets.GITHUB_TOKEN }}   # ✅ ADD THIS LINE
+
 
