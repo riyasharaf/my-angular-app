@@ -29,7 +29,7 @@ jobs:
         with:
           branch: gh-pages
           folder: dist/contacts
-          target-folder: .                # ✅ THIS IS THE KEY FIX
+          target-folder: my-angular-app              # ✅ THIS IS THE KEY FIX
           clean: true                     # ✅ optional, cleans old files
 
 
