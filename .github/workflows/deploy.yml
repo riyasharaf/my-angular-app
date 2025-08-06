@@ -28,7 +28,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/contact
+          folder: dist/contacts
           token: ${{ secrets.GITHUB_TOKEN }}   # ✅ ADD THIS LINE
 
 
