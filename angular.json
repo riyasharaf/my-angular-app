@@ -15,7 +15,8 @@
           "options": {
             "outputPath": "dist/contacts",
             "index": "src/index.html",
-            "baseHref": "/contacts/",
+            "baseHref": "/my-angular-app/",
+
 
             "browser": "src/main.ts",
             "polyfills": [
