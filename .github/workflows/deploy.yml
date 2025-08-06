@@ -29,6 +29,8 @@ jobs:
         with:
           branch: gh-pages
           folder: dist/contacts
-          token: ${{ secrets.GITHUB_TOKEN }}   # ✅ ADD THIS LINE
+          target-folder: .                # ✅ THIS IS THE KEY FIX
+          clean: true                     # ✅ optional, cleans old files
+
 
 
